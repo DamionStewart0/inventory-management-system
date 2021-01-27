@@ -1,0 +1,25 @@
+nav {
+    position: relative;
+    /* left: 900px; */
+    /* bottom: 90px; */
+    background: #463f3a;
+    background-position: center;
+    background-size: auto;
+    background-repeat: none;
+    width: 100vw;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+nav a {
+    position: relative;
+    text-decoration: none;
+    color:tomato;
+    margin: 0 40px;
+    top: 25px;
+}
+
+
+

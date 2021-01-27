@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { baseURL, config } from "../../services";
+import "./AddInventory.css"
 
 function AddInventory(props) {
   const [year, setYear] = useState(0);

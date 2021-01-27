@@ -1,0 +1,20 @@
+.footer p {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    color: tomato;
+    text-align: center;
+    align-items: center;
+    
+} 
+.footer {
+    position: absolute;
+    background: #463f3a;
+    width: 100vw;
+    height: 50px;
+    bottom: 0;
+    /* margin: 0 auto; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}  

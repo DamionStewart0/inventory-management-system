@@ -1,8 +1,10 @@
+import './Header.css';
+
 function Header(props) {
     return(
         <div className="header">
             <div>
-                <h2>Snapa-Shot</h2>
+                <h2>Classified</h2>
             </div>
         </div>
 

@@ -1,11 +1,9 @@
-import {useState} from "react";
+import Car from "../car/Car";
+import './Home.css';
 
 function Home(props) {
-    const [rented, setRented] = useState(true);
-    //  const params = useParams();
-    //  const car = props.inventory.find((car) =>
-    //       return car.id === params.id
-    // });
+    
+    
     console.log(props);
 
   
@@ -14,14 +12,7 @@ function Home(props) {
         {props.cars &&
           props.cars.map((car) => (
             <div>
-              <div className="car-info">
-                  
-                <div>{car.fields.year}</div>
-                <div>{car.fields.make}</div>
-                <div>{car.fields.model}</div>
-                <div>{car.fields.color}</div>
-                <div className="indicator"><span>.</span></div>
-              </div>
+             <Car car={car}/>
             </div>
           ))}
       </div>

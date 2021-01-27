@@ -1,11 +1,7 @@
 .App {
     position: relative;
     display: flex;
-    margin-top: 25px;
-    padding: 25px;
+    flex-direction: column;
     justify-content: left;
 }
-.App Nav {
-    display: flex;
-    justify-content: space-between;
-}
+

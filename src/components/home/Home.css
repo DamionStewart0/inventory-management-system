@@ -1,7 +1,25 @@
-.Home {
-    display: flex;
-}
+
+
+/* @keyframes blinking {
+    100% { color: #06d6a0; }
+
+    } */
 
 .car-info {
     display: flex;
+    justify-content: space-evenly;
+    margin: 0 45px;
+    align-items: center;
+    text-align: center;
+
+}
+.indicator span {
+    animation: blinking 1s infinite;
+    font-size: 85px;
+}
+
+.indicator {
+    display: inline;
+    margin: 0;
+    padding: 0;
 }

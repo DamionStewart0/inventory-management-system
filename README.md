@@ -1,70 +1,136 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SOME APP (INVENTORY MANAGEMENT SYSYTEM)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Project Description
 
-### `npm start`
+SOME APP(IMS) is an Airtable and React build that will allow business operators to see all their inventory in one place and will also enable the user to tell if that inventory in use or parked. The user will be able  to navigate from the homepage either by the main links (i.e Inventory or Driver) or they will be able to click on the listed cars. Most importantly each car listed on the homepage will have an active/inactive indicator to let the user know the inventory status. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Wireframes
+The wireframe below will show the homepage for SOME APP in Web format. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Inventory-management-sysytem
+## wireframe-Homepage https://wireframe.cc/jTMLXM
+## wireframe- Inventory: https://wireframe.cc/PUVfDd
+## wireframe- Form: https://wireframe.cc/Pm2s0z
+## wireframe- Mobile: https://wireframe.cc/UTP8bq
 
-### `npm test`
+## Code Snippet
+```
+{
+    "records": [
+        {
+            "id": "recGkNDb97cwZCwX4",
+            "fields": {
+                "MAKE": "Toyota",
+                "MODEL": "Camry",
+                "YEAR": 2020,
+                "DOORS": 4,
+                "IMAGE": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj7Gno4wvqLIQgKKn7whFqKlXQinliKVJ6Sg&usqp=CAU"
+            },
+            "createdTime": "2021-01-20T16:35:50.000Z"
+        },
+        {
+            "id": "rec94VXDqYZZ291lP",
+            "fields": {
+                "MAKE": "Acura",
+                "MODEL": "MDX",
+                "YEAR": 2017,
+                "DOORS": 4,
+                "IMAGE": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTEhIVFhUWFhUVFRcYGRkYGBcYFxUXFhUVFxUYHSggGBolGxUVIjEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0..."
+            },
+            "createdTime": "2021-01-20T16:35:50.000Z"
+        },
+        {
+            "id": "rec6HFmyKBJ6eKe5t",
+            "fields": {
+                "MAKE": "Honda",
+                "MODEL": "Accord",
+                "YEAR": 2021,
+                "DOORS": 4,
+                "IMAGE": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-m8DEf8xJ1TEpE5nPn_YOLFHtQMN9Lmzjug&usqp=CAU"
+            },
+            "createdTime": "2021-01-20T16:35:50.000Z"
+        }
+    ],
+    "offset": "rec6HFmyKBJ6eKe5t"
+}
+```
+## Component Hierarchy
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Component flowchart   https://whimsical.com/component-1-2-XkWnNVbHoXhaRJxHL3TuCy
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### MVP/PostMVP
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### MVP
 
-### `npm run eject`
+- Home page will have links of all inventory as well as links to other pages.
+- Build navigation which will include login and HOME links
+- Build Links and Routes from homepage to other pages
+- Build forms to collect data for both Inventory and Renter 
+- Get and post car inventory and Renter data.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### PostMVP
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Collaborate with a UX student to make the UI more intuitutive.
+- Indicator to show when car is rented or not.
+- Delete  inventory.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Project Schedule
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Day      | Deliverable                                | Status   |
+| -------- | ------------------------------------------ | -------- |
+| Jan 20   | Proposal Approval                          | Complete |
+| Jan 21   | Set Airtable/ Api Call                     | Complete |
+| Jan 22   | Create components/Route and links          | Complete |
+| Jan 22   | Build forms                                | Complete |
+| Jan 23   | Style components                           | Complete |
+| Jan 24   | Advance CSS                                | Complete |
+| Jan 25   | Deploy project                             | Complete |
+| Jan 27   | Presentations                              | Complete |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Timeframes
 
-### Code Splitting
+| Component                 | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Proposal                  |    H     |      2hrs      |     1.5hrs   |   1.5hrs    |
+| Airtable setup            |    H     |      3hrs      |     .5hrs    |    .5hrs    |
+| Api call                  |    H     |      3hrs      |     2hrs     |    2hrs     |
+| Create component          |    H     |      3hrs      |     4hrs     |    4hrs     |
+| Build Nav                 |    H     |      3hrs      |     6hrs     |    3hrs     |
+| Build Forms               |    H     |      3hrs      |     4hrs     |    3hrs     |
+| Style Home                |    H     |      3hrs      |     6hrs     |    6hrs     |
+| Style Inventory           |    H     |      3hrs      |     6hrs     |    6hrs     |
+| Style Renter              |    H     |      3hrs      |     6hrs     |    6hrs     |
+| Advance CSS               |    H     |      3hrs      |     8hrs     |    8hrs     |
+| Total                     |    H     |      40hrs     |    39.5 hrs  |   39.5 hrs  |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Strengths:
+I have a good data base of examples from class exercise/labs, and even though i dont have a strong understanding of React. From my very basic understanding of React and the guidance(labs & example) i was given i am confident my app will be user friendly and productive.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Weaknesses:
+Lack of in depth understanding of React is the only major hinderance to this project but that can be mitigated by the following process: 1. Go over the examples we received.
+2. Search for solutions online (DuckDuckGo, google). 3. Ask a Friend/Cohort mates. 4. Ask an instructor. With this simple process i will cover come any challenge.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### Opportunities:
+I am more comfortable using the function component method but this may be a great opportunity to start working with class component.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Threats:
+Time, Time, Time....Proper time management is critical for the project to come out the way in envision is essential. In order to overcome this challenge i will have to maximise the time i spend on each component of this current project. Also i will need to be doing research at EOD to prepare for the next component of the project for the next day.
+
+
+
+.
+
+
