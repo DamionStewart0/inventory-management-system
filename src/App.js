@@ -6,14 +6,14 @@ import Home from "./components/home/Home";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Inventory from "./components/inventory/Inventory";
-import { Route, useHistory } from "react-router-dom";
+import { Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Nav from "./components/nav/Nav";
 
 function App() {
   const [cars, setCars] = useState([]);
   const [toggleFetch, setToggleFetch] = useState(false);
-  const history = useHistory();
+  // const history = useHistory();
 
 
   useEffect(() => {
