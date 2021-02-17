@@ -6,7 +6,7 @@ import Home from "./components/home/Home";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Inventory from "./components/inventory/Inventory";
-import { Link, Route, useHistory } from "react-router-dom";
+import { Route, useHistory } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Nav from "./components/nav/Nav";
 
