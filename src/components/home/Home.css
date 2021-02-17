@@ -14,7 +14,7 @@
 
 }
 .indicator span {
-    /* animation: blinking 1s infinite; */
+    animation: blinking 1s infinite;
     font-size: 85px;
 }
 
