@@ -2,8 +2,11 @@ import "./Car.css"
 
 
 function Car(props) {
+
   return (
-    <div className="car-info">
+    <>
+      {/* <div className="car-info"> */}
+      {props.car && <div className="car-info">
       <div>{props.car.fields.year}</div>
       <div>{props.car.fields.make}</div>
       <div>{props.car.fields.model}</div>
@@ -18,6 +21,9 @@ function Car(props) {
         </div>
       )}
     </div>
-  );
+    }
+     </>
+  
+  )
 }
 export default Car;
