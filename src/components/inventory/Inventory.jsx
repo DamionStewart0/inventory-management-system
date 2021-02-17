@@ -19,7 +19,7 @@ function Inventory(props) {
         props.cars.map((car) => (
           <div className="car">
             <div className="car-image">
-              <img src={car.fields.image} alt='car image'/>
+              <img src={car.fields.image} alt='car'/>
             </div>
             <Car car={car} handleDelete={handleDelete}/>
           </div>
