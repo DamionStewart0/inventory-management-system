@@ -1,5 +1,8 @@
 
 # SOME APP (INVENTORY MANAGEMENT SYSYTEM)
+Live https://heuristic-clarke-8bf80d.netlify.app
+
+
 
 
 ## Project Description
