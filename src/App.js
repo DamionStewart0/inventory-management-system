@@ -23,7 +23,7 @@ function App() {
       history.push('/')
     };
     getCars();
-  }, [toggleFetch, history]);
+  }, [toggleFetch]);
 
   return (
     <div className="App">
