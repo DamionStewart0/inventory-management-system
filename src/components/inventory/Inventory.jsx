@@ -6,6 +6,7 @@ import "./Inventory.css"
 function Inventory(props) {
   console.log(props);
 
+  // Handle delete function
   const handleDelete = async (car) => {
    const carURL = `${baseURL}/${car.id}`;
    await axios.delete(carURL, config);
