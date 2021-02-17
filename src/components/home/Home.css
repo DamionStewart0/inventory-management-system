@@ -1,9 +1,9 @@
 
-/* 
+
 @keyframes blinking {
     100% { color: #06d6a0; }
 
-    } */
+    } 
 
 .car-info {
     display: flex;
