@@ -20,10 +20,10 @@ function App() {
     const getCars = async () => {
       const response = await axios.get(baseURL, config);
       setCars(response.data.records);
-      history.push('/')
+      // history.push('/')
     };
     getCars();
-  }, [toggleFetch, history]);
+  }, [toggleFetch]);
 
   return (
     <div className="App">
